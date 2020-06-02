@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Toast.makeText(getApplicationContext(),
-                //        "This button is tapped", Toast.LENGTH_SHORT).show();
-
                 //getting the api url
                 String url = "https://api.lyrics.ovh/v1/" + edtArtistName.getText().toString() + "/" +
                         edtSongName.getText().toString();
